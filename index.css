@@ -1,0 +1,162 @@
+li{
+    max-width: 1200px;
+    width: 500px;
+    margin: 0 auto; 
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(to bottom,aqua 10%, rgb(28, 158, 28) 100%);
+	background-color:green;
+	border-radius:10px;
+    border-style:double;
+    height: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    max-width: 1200px;
+    margin: 0 auto; 
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(to bottom, aqua 5%, rgb(28, 158, 28) 100%);
+	background-color:green;
+	border-radius:8px;
+    margin-top: 10px;
+    width: 500px;
+    border-style:double;
+    height: 35px;
+    
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+
+}
+
+.ProdutoItem4{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(to bottom, blue 5%, purple 100%);
+	background-color:#ceddd2;
+	border-radius:8px;
+    margin-top: 10px;
+    width: 500px;
+    border-style:double;
+    height: 35px;
+    
+
+}
+
+.ProdutoItem5{
+    max-width: 1100px;
+    margin: 0 auto; 
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(to bottom, #afe4bc 5%, #408c99 100%);
+	background-color:#ceddd2;
+	border-radius:8px;
+    margin-top: 10px;
+    width: 500px;
+    border-style:double;
+    height: 35px;
+    
+
+}
+
+.ProdutoItem6{
+    max-width: 1100px;
+    margin: 0 auto; 
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(to bottom, #afe4bc 5%, #408c99 100%);
+	background-color:#ceddd2;
+	border-radius:8px;
+    margin-top: 10px;
+    width: 500px;
+    border-style:double;
+    height: 35px;
+    
+
+}
+
+.Item{
+    max-width: 1100px;
+    margin: 0 auto; 
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(to bottom, #afe4bc 5%, #408c99 100%);
+	background-color:#ceddd2;
+	border-radius:8px;
+    margin-top: 10px;
+    width: 500px;
+    border-style:double;
+    height: 35px;
+    
+
+}
+
+
+h2{
+    text-align: center;
+    color: rgb(189, 189, 189);
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    justify-content: center;
+
+    
+
+}
+
+
+
+
+Button {
+	box-shadow: 0px 10px 14px -7px #0a7c2c;
+	background:linear-gradient(to bottom, #01831f 15%, #093e47 100%);
+	background-color:#59b36e;
+	border-radius:8px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Tahoma;
+	font-size:16px;
+	font-weight:bold;
+	padding:23px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    display: flex;
+    justify-content: center;
+}
+Button:hover {
+	background:linear-gradient(to bottom, #094a55 5%, #005f16 100%);
+	background-color:#408c99;
+}
+Button:active {
+	position:relative;
+	top:2px;
+}
+
+
+
+body {
+    background-color:#000;
+    
+}
