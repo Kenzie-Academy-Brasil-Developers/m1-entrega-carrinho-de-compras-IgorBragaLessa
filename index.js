@@ -39,7 +39,7 @@ somali.innerText = "Total"
 somali2.innerText = ""
 
 
-const products = [
+const produtos = [
     {
         id: "Chiclete",
         name: "Chiclete",
@@ -67,8 +67,8 @@ const products = [
     }
 ]
 
-for(let i = 0; i < products.length; i++){
-    const figureCard = createCard(products[i])
+for(let i = 0; i < produtos.length; i++){
+    const figureCard = createCard(produtos[i])
     section.appendChild(figureCard)
 }
 function createCard(card){
@@ -86,10 +86,10 @@ function shopingCar (item) {
     const li2 = document.getElementById("li2")
     let resultado = 0;
     for(let i = 0; i < item.length; i++){
-       resultado = resultado + products[i].price
+       resultado = resultado + produtos[i].price
 
     }
     somali2.innerText = resultado
     return result = soma
 }
-shopingCar(products)
+shopingCar(produtos)
