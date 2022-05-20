@@ -1,162 +1,82 @@
-li{
-    max-width: 1200px;
-    width: 500px;
-    margin: 0 auto; 
-    font-family: 'Lato', sans-serif;
+html,
+body,
+figure,
+div,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+  }
+  main{
     display: flex;
     justify-content: center;
-    align-content: center;
-    background:linear-gradient(to bottom,aqua 10%, rgb(28, 158, 28) 100%);
-	background-color:green;
-	border-radius:10px;
-    border-style:double;
-    height: 35px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-p{
-    max-width: 1200px;
-    margin: 0 auto; 
-    font-family: 'Lato', sans-serif;
+    flex-direction: column;
+    background-color:  rgb(214, 214, 214);
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 3px
+  }
+   button{
+    background-color: rgb(2, 97, 221);
+    height: 50px;
+    width: auto;
+    padding: 0 40px;
+    color: #ffffff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 20px;
+    border:none!important;
+    cursor: pointer;
+  }
+  li {
+    height: 48px;
+    width: auto;
+    padding: 17px 17px 0px 17px;
+    color: rgb(4, 0, 248);
+    border-radius: 4px;
+    font-size: 20px;
+    border:none!important;
+  }
+  #description {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    background:linear-gradient(to bottom, aqua 5%, rgb(28, 158, 28) 100%);
-	background-color:green;
-	border-radius:8px;
-    margin-top: 10px;
-    width: 500px;
-    border-style:double;
-    height: 35px;
-    
-
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
-
-button{
+.itens {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    
-    
-
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
 }
-
-.ProdutoItem4{
-    max-width: 1200px;
-    margin: 0 auto;
-    font-family: 'Lato', sans-serif;
+#soma {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    background:linear-gradient(to bottom, blue 5%, purple 100%);
-	background-color:#ceddd2;
-	border-radius:8px;
-    margin-top: 10px;
-    width: 500px;
-    border-style:double;
-    height: 35px;
-    
-
-}
-
-.ProdutoItem5{
-    max-width: 1100px;
-    margin: 0 auto; 
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background:linear-gradient(to bottom, #afe4bc 5%, #408c99 100%);
-	background-color:#ceddd2;
-	border-radius:8px;
-    margin-top: 10px;
-    width: 500px;
-    border-style:double;
-    height: 35px;
-    
-
-}
-
-.ProdutoItem6{
-    max-width: 1100px;
-    margin: 0 auto; 
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background:linear-gradient(to bottom, #afe4bc 5%, #408c99 100%);
-	background-color:#ceddd2;
-	border-radius:8px;
-    margin-top: 10px;
-    width: 500px;
-    border-style:double;
-    height: 35px;
-    
-
-}
-
-.Item{
-    max-width: 1100px;
-    margin: 0 auto; 
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background:linear-gradient(to bottom, #afe4bc 5%, #408c99 100%);
-	background-color:#ceddd2;
-	border-radius:8px;
-    margin-top: 10px;
-    width: 500px;
-    border-style:double;
-    height: 35px;
-    
-
-}
-
-
-h2{
-    text-align: center;
-    color: rgb(189, 189, 189);
-    font-family: 'Segoe UI';
-    font-size: 40px;
-    justify-content: center;
-
-    
-
-}
-
-
-
-
-Button {
-	box-shadow: 0px 10px 14px -7px #0a7c2c;
-	background:linear-gradient(to bottom, #01831f 15%, #093e47 100%);
-	background-color:#59b36e;
-	border-radius:8px;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Tahoma;
-	font-size:16px;
-	font-weight:bold;
-	padding:23px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
-    display: flex;
-    justify-content: center;
-}
-Button:hover {
-	background:linear-gradient(to bottom, #094a55 5%, #005f16 100%);
-	background-color:#408c99;
-}
-Button:active {
-	position:relative;
-	top:2px;
-}
-
-
-
-body {
-    background-color:#000;
-    
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(25, 198, 221);
 }
