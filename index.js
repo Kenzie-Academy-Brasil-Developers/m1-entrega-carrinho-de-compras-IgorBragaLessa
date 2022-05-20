@@ -48,7 +48,7 @@ const produtos = [
     {
         id: "Chocolae Garoto",
         name: "Chocolate Garoto",
-        price: 5.60
+        price: 5.00
     },
     {
         id: "Fini",
@@ -82,7 +82,7 @@ function createCard(card){
  itens.appendChild(itensli2)
     return itens
 }
-function shopingCar (item) {
+function CarrinhoCompras (item) {
     const li2 = document.getElementById("li2")
     let resultado = 0;
     for(let i = 0; i < item.length; i++){
@@ -92,4 +92,4 @@ function shopingCar (item) {
     somali2.innerText = resultado
     return result = soma
 }
-shopingCar(produtos)
+CarrinhoCompras(produtos)
