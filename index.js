@@ -68,10 +68,10 @@ const produtos = [
 ]
 
 for(let i = 0; i < produtos.length; i++){
-    const figureCard = createCard(produtos[i])
+    const figureCard = criandoCarr(produtos[i])
     section.appendChild(figureCard)
 }
-function createCard(card){
+function criandoCarr(card){
     const itens = document.createElement("ul");
     itens.classList = "itens"
     const itensli = document.createElement("li");
